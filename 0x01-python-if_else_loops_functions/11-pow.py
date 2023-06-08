@@ -1,4 +1,3 @@
-  1 #!/usr/bin/python3
-  2 def add(a, b):
-  3     return (a ^ b)
-~                         
+#!/usr/bin/python3
+def pow(a, b):
+return (a ** b)              
