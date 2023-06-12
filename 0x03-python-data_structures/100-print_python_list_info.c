@@ -1,6 +1,6 @@
 #include <Python.h>
 #include <object.h>
-i#include <listobject.h>
+#include <listobject.h>
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -9,7 +9,7 @@ i#include <listobject.h>
 * @p: Apoint
 * Return: Nil
 */
-void print_python_list_info(PyObject * p)
+void print_python_list_info(PyObject *p)
 {
 	long int size = PyList_Size(p);
 	int a;
